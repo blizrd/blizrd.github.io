@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+html, body {
+  overflow-x: hidden;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bg-image {
+  background-image: url("https://cdn.glitch.com/9ca07ffc-5e39-4c91-9401-21b2fdebbb47%2Fblizrd%20logo.png?v=1586188663259");
+  filter: blur(13px);
+  -webkit-filter: blur(13px);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-image2 {
+  background-image: url("https://cdn.glitch.com/9ca07ffc-5e39-4c91-9401-21b2fdebbb47%2Fbb%20rec.jpg?v=1586193892249");
+  filter: blur(13px);
+  -webkit-filter: blur(13px);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-image3 {
+  background-image: url("https://cdn.glitch.com/9ca07ffc-5e39-4c91-9401-21b2fdebbb47%2Fbb.jpg?v=1586194004392");
+  filter: blur(13px);
+  -webkit-filter: blur(13px);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main {
+  background-color: #fff;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 40%;
+}
+
+.content {
+  margin: 0 -9999rem;
+  padding: 0.25rem 9999rem;
+  text-align: center;
+}
+
+.nav {
+  margin: -1% -1rem;
+  background-color: #2c0c0b;
+  color: #fff;
+  height: 5%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.nav li {
+  display: inline
+}
+
+.nav li a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.nav li a.active {
+  text-decoration: underline;
+}
+
+.nav li a:hover {
+  color: #a3a3a3;
+}
+
+.btn {
+  background-color: #dbdbdb;
+  text-decoration: none;
+  color: #000;
+  padding: 20 30;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #a3a3a3;
+}
