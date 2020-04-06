@@ -39,6 +39,26 @@ html, body {
   background-size: cover;
 }
 
+.bg-image4 {
+  background-image: url("https://media.discordapp.net/attachments/651020737540259844/696794053941133402/unknown.png");
+  filter: blur(13px);
+  -webkit-filter: blur(13px);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-image5 {
+  background-image: url("https://media.discordapp.net/attachments/651020737540259844/696794350654324778/unknown.png");
+  filter: blur(13px);
+  -webkit-filter: blur(13px);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .main {
   background-color: #fff;
   position: absolute;
